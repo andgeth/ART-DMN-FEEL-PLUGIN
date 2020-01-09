@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" id="Definitions_0t2vysv" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="3.4.1">
+  <decision id="decision1" name="Decision 1">
+    <decisionTable id="decisionTable_1" hitPolicy="FIRST">
+      <input id="input_1" label="input">
+        <inputExpression id="inputExpression_1" typeRef="list">
+          <text>input</text>
+        </inputExpression>
+      </input>
+      <output id="output_1" label="result" name="result" typeRef="boolean" />
+      <rule id="DecisionRule_09ve5g9">
+        <inputEntry id="UnaryTests_0exs5vb">
+          <text>~ "text1"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_04skotd">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0wf07vg">
+        <inputEntry id="UnaryTests_1kngrcc">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1nu4h1g">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
