@@ -65,9 +65,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>internal.repo</id>
-			<name>Temporary Staging Repository</name>
-			<url>file://${project.basedir}/camunda-repo</url>
+			<id>mvnRepository</id>
+			<name>Maven Repository</name>
+			<url>file://${project.basedir}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
 
