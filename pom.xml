@@ -10,7 +10,7 @@
 	<properties>
 		<feel-scala.version>1.6.2</feel-scala.version>
 		<junit.version>4.12</junit.version>
-		<h2.version>1.4.198</h2.version>
+		<h2.version>2.0.206</h2.version>
 		<camunda.version>7.10.0</camunda.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>8</java.version>
